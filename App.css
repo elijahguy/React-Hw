@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+ display: grid;
+ grid-template:repeat(3,1fr)/ repeat(4, 1fr);
+ border: 1px solid;
+ gap: 40px;
+ padding: 10px;
+ background-color: antiquewhite;
+}
+
+.grid {
+  border: 1px solid;
+  background-color: aqua;
+  text-align: center;
+}
+.menu{
+  border: 1px solid;
+  display: grid;
+  grid-row: 1/span 4;
+  background-color: aqua;
+  text-align: center;
+}
+
+
+.visitors {
+  border: 1px solid;
+  grid-column: 2/span 3;
+  grid-row: 2/ span 3;
+  background-color: black;
+  text-align: center;
+  list-style: none;
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+
